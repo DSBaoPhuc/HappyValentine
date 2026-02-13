@@ -753,27 +753,30 @@ body {
     }
 
     .container.active .cloud {
-        height: 120px;
-        width: 120px;
-        left: -30px;
-        box-shadow: 70px -10px #ffb3c1, 140px -20px #ffb3c1, 210px -10px #ffb3c1,
-            280px 0px #ffb3c1, 350px 5px #ffb3c1;
+        height: 100px;
+        width: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 60px 0px #ffb3c1, 120px -10px #ffb3c1, 180px 0px #ffb3c1,
+            -60px 0px #ffb3c1, -120px -10px #ffb3c1, -180px 0px #ffb3c1;
     }
 
     .container.active .cloud1 {
-        height: 120px;
-        width: 120px;
-        left: -30px;
-        box-shadow: 70px -10px #ffccd5, 140px -20px #ffccd5, 210px -10px #ffccd5,
-            280px 0px #ffccd5, 350px 5px #ffccd5;
+        height: 100px;
+        width: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 60px 0px #ffccd5, 120px -10px #ffccd5, 180px 0px #ffccd5,
+            -60px 0px #ffccd5, -120px -10px #ffccd5, -180px 0px #ffccd5;
     }
 
     .container.active .cloud2 {
-        height: 120px;
-        width: 120px;
-        left: -30px;
-        box-shadow: 70px -10px white, 140px -10px white, 210px -10px white,
-            280px 0px white, 350px 5px white;
+        height: 100px;
+        width: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 60px 0px white, 120px -5px white, 180px 0px white,
+            -60px 0px white, -120px -5px white, -180px 0px white;
     }
 }
 
@@ -854,26 +857,29 @@ body {
     }
 
     .container.active .cloud {
-        height: 100px;
-        width: 100px;
-        left: -20px;
-        box-shadow: 60px -8px #ffb3c1, 120px -15px #ffb3c1, 180px -8px #ffb3c1,
-            240px 0px #ffb3c1, 300px 5px #ffb3c1;
+        height: 80px;
+        width: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 50px 0px #ffb3c1, 100px -8px #ffb3c1, 150px 0px #ffb3c1,
+            -50px 0px #ffb3c1, -100px -8px #ffb3c1, -150px 0px #ffb3c1;
     }
 
     .container.active .cloud1 {
-        height: 100px;
-        width: 100px;
-        left: -20px;
-        box-shadow: 60px -8px #ffccd5, 120px -15px #ffccd5, 180px -8px #ffccd5,
-            240px 0px #ffccd5, 300px 5px #ffccd5;
+        height: 80px;
+        width: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 50px 0px #ffccd5, 100px -8px #ffccd5, 150px 0px #ffccd5,
+            -50px 0px #ffccd5, -100px -8px #ffccd5, -150px 0px #ffccd5;
     }
 
     .container.active .cloud2 {
-        height: 100px;
-        width: 100px;
-        left: -20px;
-        box-shadow: 60px -8px white, 120px -8px white, 180px -8px white,
-            240px 0px white, 300px 5px white;
+        height: 80px;
+        width: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 50px 0px white, 100px -5px white, 150px 0px white,
+            -50px 0px white, -100px -5px white, -150px 0px white;
     }
 }
