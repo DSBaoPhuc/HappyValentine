@@ -9,6 +9,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    max-width: 100vw;
     overflow-x: hidden;
 }
 
@@ -16,6 +17,7 @@ body {
     position: relative;
     height: 100%;
     width: 100%;
+    max-width: 100vw;
     background-color: #fc6885;
     overflow: hidden;
 }
@@ -637,31 +639,31 @@ body {
 /* RESPONSIVE FOR MOBILE */
 @media screen and (max-width: 768px) {
     .paperHeart {
-        height: 60px;
+        height: 50px;
     }
 
     .paperHeart1 {
-        left: 10px;
+        left: 5%;
     }
 
     .paperHeart2 {
-        left: 80px;
+        left: 20%;
     }
 
     .paperHeart3 {
-        left: 150px;
+        left: 40%;
     }
 
     .paperHeart4 {
-        left: 220px;
+        left: 60%;
     }
 
     .paperHeart5 {
-        left: 290px;
+        left: 75%;
     }
 
     .paperHeart6 {
-        left: 360px;
+        left: 90%;
     }
 
     .boxTitle {
@@ -737,30 +739,35 @@ body {
     }
 
     .container.active .cloud {
-        height: 150px;
-        width: 150px;
-        box-shadow: 90px -15px #ffb3c1, 180px -30px #ffb3c1, 270px -15px #ffb3c1,
-            360px 0px #ffb3c1;
+        height: 120px;
+        width: 120px;
+        left: -30px;
+        box-shadow: 70px -10px #ffb3c1, 140px -20px #ffb3c1, 210px -10px #ffb3c1,
+            280px 0px #ffb3c1, 350px 5px #ffb3c1;
     }
 
     .container.active .cloud1 {
-        height: 150px;
-        width: 150px;
-        box-shadow: 90px -15px #ffccd5, 180px -30px #ffccd5, 270px -15px #ffccd5,
-            360px 0px #ffccd5;
+        height: 120px;
+        width: 120px;
+        left: -30px;
+        box-shadow: 70px -10px #ffccd5, 140px -20px #ffccd5, 210px -10px #ffccd5,
+            280px 0px #ffccd5, 350px 5px #ffccd5;
     }
 
     .container.active .cloud2 {
-        height: 150px;
-        width: 150px;
-        box-shadow: 90px -15px white, 180px -15px white, 270px -15px white,
-            360px 0px white;
+        height: 120px;
+        width: 120px;
+        left: -30px;
+        box-shadow: 70px -10px white, 140px -10px white, 210px -10px white,
+            280px 0px white, 350px 5px white;
     }
 }
 
 @media screen and (max-width: 480px) {
     .boxTitle {
-        font-size: 50px;
+        font-size: 45px;
+        padding: 0 10px;
+        text-align: center;
     }
 
     .container .btnBox {
@@ -824,5 +831,29 @@ body {
     .baoboiImage {
         width: 70px;
         height: 70px;
+    }
+
+    .container.active .cloud {
+        height: 100px;
+        width: 100px;
+        left: -20px;
+        box-shadow: 60px -8px #ffb3c1, 120px -15px #ffb3c1, 180px -8px #ffb3c1,
+            240px 0px #ffb3c1, 300px 5px #ffb3c1;
+    }
+
+    .container.active .cloud1 {
+        height: 100px;
+        width: 100px;
+        left: -20px;
+        box-shadow: 60px -8px #ffccd5, 120px -15px #ffccd5, 180px -8px #ffccd5,
+            240px 0px #ffccd5, 300px 5px #ffccd5;
+    }
+
+    .container.active .cloud2 {
+        height: 100px;
+        width: 100px;
+        left: -20px;
+        box-shadow: 60px -8px white, 120px -8px white, 180px -8px white,
+            240px 0px white, 300px 5px white;
     }
 }
