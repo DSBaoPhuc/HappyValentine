@@ -667,32 +667,46 @@ body {
     }
 
     .boxTitle {
-        font-size: 60px;
+        font-size: 70px;
+        text-shadow: 0 0 15px white, 0 0 30px rgba(255, 255, 255, 0.8);
+        line-height: 1.2;
+    }
+    
+    .partTitle {
+        display: block;
+        width: 100%;
     }
 
     .container .btnBox {
         height: 100px;
-        width: 280px;
+        width: 90%;
+        max-width: 300px;
     }
 
     .cloudBtn {
         height: 60px;
         width: 60px;
-        box-shadow: 40px 0 #fc6885, 80px 0 #fc6885, 120px 0 #fc6885, 160px 0 #fc6885,
-            200px 0 #fc6885, 200px 40px #fc6885, 160px 40px #fc6885, 120px 40px #fc6885,
-            80px 40px #fc6885, 40px 40px #fc6885, 0 40px #fc6885;
+        box-shadow: 45px 0 #fc6885, 90px 0 #fc6885, 135px 0 #fc6885, 180px 0 #fc6885,
+            180px 40px #fc6885, 135px 40px #fc6885, 90px 40px #fc6885,
+            45px 40px #fc6885, 0 40px #fc6885;
     }
 
     .cloudBtn::before {
         height: 50px;
         width: 50px;
-        box-shadow: 40px 0 white, 80px 0 white, 120px 0 white, 160px 0 white,
-            200px 0 white, 200px 40px white, 160px 40px white, 120px 40px white,
-            80px 40px white, 40px 40px white, 0 40px white;
+        box-shadow: 45px 0 white, 90px 0 white, 135px 0 white, 180px 0 white,
+            180px 40px white, 135px 40px white, 90px 40px white,
+            45px 40px white, 0 40px white;
     }
 
     .openBtn {
-        font-size: 24px;
+        font-size: 20px;
+        padding: 10px;
+        line-height: 1.2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .cardValentine {
@@ -765,34 +779,40 @@ body {
 
 @media screen and (max-width: 480px) {
     .boxTitle {
-        font-size: 45px;
-        padding: 0 10px;
+        font-size: 55px;
+        padding: 0 15px;
         text-align: center;
+        text-shadow: 0 0 20px white, 0 0 40px rgba(255, 255, 255, 0.9);
+        font-weight: 400;
     }
 
     .container .btnBox {
-        height: 80px;
-        width: 240px;
+        height: 90px;
+        width: 85%;
+        max-width: 280px;
     }
 
     .cloudBtn {
         height: 50px;
         width: 50px;
-        box-shadow: 35px 0 #fc6885, 70px 0 #fc6885, 105px 0 #fc6885, 140px 0 #fc6885,
-            140px 30px #fc6885, 105px 30px #fc6885, 70px 30px #fc6885,
-            35px 30px #fc6885, 0 30px #fc6885;
+        box-shadow: 40px 0 #fc6885, 80px 0 #fc6885, 120px 0 #fc6885, 160px 0 #fc6885,
+            160px 30px #fc6885, 120px 30px #fc6885, 80px 30px #fc6885,
+            40px 30px #fc6885, 0 30px #fc6885;
     }
 
     .cloudBtn::before {
-        height: 40px;
-        width: 40px;
-        box-shadow: 35px 0 white, 70px 0 white, 105px 0 white, 140px 0 white,
-            140px 30px white, 105px 30px white, 70px 30px white,
-            35px 30px white, 0 30px white;
+        height: 42px;
+        width: 42px;
+        box-shadow: 40px 0 white, 80px 0 white, 120px 0 white, 160px 0 white,
+            160px 30px white, 120px 30px white, 80px 30px white,
+            40px 30px white, 0 30px white;
     }
 
     .openBtn {
-        font-size: 20px;
+        font-size: 18px;
+        padding: 8px;
+        white-space: normal;
+        word-wrap: break-word;
     }
 
     .cardValentine {
