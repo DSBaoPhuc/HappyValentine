@@ -9,6 +9,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 
 .container {
@@ -630,5 +631,198 @@ body {
 
     100% {
         top: 50%;
+    }
+}
+
+/* RESPONSIVE FOR MOBILE */
+@media screen and (max-width: 768px) {
+    .paperHeart {
+        height: 60px;
+    }
+
+    .paperHeart1 {
+        left: 10px;
+    }
+
+    .paperHeart2 {
+        left: 80px;
+    }
+
+    .paperHeart3 {
+        left: 150px;
+    }
+
+    .paperHeart4 {
+        left: 220px;
+    }
+
+    .paperHeart5 {
+        left: 290px;
+    }
+
+    .paperHeart6 {
+        left: 360px;
+    }
+
+    .boxTitle {
+        font-size: 60px;
+    }
+
+    .container .btnBox {
+        height: 100px;
+        width: 280px;
+    }
+
+    .cloudBtn {
+        height: 60px;
+        width: 60px;
+        box-shadow: 40px 0 #fc6885, 80px 0 #fc6885, 120px 0 #fc6885, 160px 0 #fc6885,
+            200px 0 #fc6885, 200px 40px #fc6885, 160px 40px #fc6885, 120px 40px #fc6885,
+            80px 40px #fc6885, 40px 40px #fc6885, 0 40px #fc6885;
+    }
+
+    .cloudBtn::before {
+        height: 50px;
+        width: 50px;
+        box-shadow: 40px 0 white, 80px 0 white, 120px 0 white, 160px 0 white,
+            200px 0 white, 200px 40px white, 160px 40px white, 120px 40px white,
+            80px 40px white, 40px 40px white, 0 40px white;
+    }
+
+    .openBtn {
+        font-size: 24px;
+    }
+
+    .cardValentine {
+        height: 500px;
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .cardValentine.active {
+        height: 500px;
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .boxTitleCard {
+        height: 200px;
+        width: 200px;
+    }
+
+    .boxTitleCard::before {
+        height: 190px;
+        width: 190px;
+    }
+
+    .boxTitleCard::after {
+        height: 170px;
+        width: 170px;
+    }
+
+    .des {
+        font-size: 16px;
+        bottom: 20px;
+    }
+
+    .rightContent {
+        font-size: 16px;
+        padding: 15px 10px;
+        padding-bottom: 110px;
+    }
+
+    .baoboiImage {
+        width: 80px;
+        height: 80px;
+    }
+
+    .container.active .cloud {
+        height: 150px;
+        width: 150px;
+        box-shadow: 90px -15px #ffb3c1, 180px -30px #ffb3c1, 270px -15px #ffb3c1,
+            360px 0px #ffb3c1;
+    }
+
+    .container.active .cloud1 {
+        height: 150px;
+        width: 150px;
+        box-shadow: 90px -15px #ffccd5, 180px -30px #ffccd5, 270px -15px #ffccd5,
+            360px 0px #ffccd5;
+    }
+
+    .container.active .cloud2 {
+        height: 150px;
+        width: 150px;
+        box-shadow: 90px -15px white, 180px -15px white, 270px -15px white,
+            360px 0px white;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .boxTitle {
+        font-size: 50px;
+    }
+
+    .container .btnBox {
+        height: 80px;
+        width: 240px;
+    }
+
+    .cloudBtn {
+        height: 50px;
+        width: 50px;
+        box-shadow: 35px 0 #fc6885, 70px 0 #fc6885, 105px 0 #fc6885, 140px 0 #fc6885,
+            140px 30px #fc6885, 105px 30px #fc6885, 70px 30px #fc6885,
+            35px 30px #fc6885, 0 30px #fc6885;
+    }
+
+    .cloudBtn::before {
+        height: 40px;
+        width: 40px;
+        box-shadow: 35px 0 white, 70px 0 white, 105px 0 white, 140px 0 white,
+            140px 30px white, 105px 30px white, 70px 30px white,
+            35px 30px white, 0 30px white;
+    }
+
+    .openBtn {
+        font-size: 20px;
+    }
+
+    .cardValentine {
+        height: 450px;
+        width: 95%;
+    }
+
+    .cardValentine.active {
+        height: 450px;
+        width: 95%;
+    }
+
+    .boxTitleCard {
+        height: 180px;
+        width: 180px;
+    }
+
+    .boxTitleCard::before {
+        height: 170px;
+        width: 170px;
+    }
+
+    .boxTitleCard::after {
+        height: 150px;
+        width: 150px;
+    }
+
+    .des {
+        font-size: 14px;
+    }
+
+    .rightContent {
+        font-size: 14px;
+    }
+
+    .baoboiImage {
+        width: 70px;
+        height: 70px;
     }
 }
