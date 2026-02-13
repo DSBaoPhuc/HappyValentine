@@ -512,7 +512,9 @@ body {
     background-color: wheat;
     border-radius: 5px;
     padding: 20px 15px;
+    padding-bottom: 130px;
     overflow: auto;
+    position: relative;
 }
 
 .rightContent::-webkit-scrollbar {
@@ -528,6 +530,25 @@ body {
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
+}
+
+.baoboiImage {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.baoboiImage.hidden {
+    opacity: 0;
+    pointer-events: none;
 }
 
 .cardValentine.active.open {

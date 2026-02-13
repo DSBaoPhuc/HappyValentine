@@ -4,9 +4,9 @@ var letterContent =
 
 durationWrite = 50;
 
-
 function effectWrite() {
   var boxLetter = document.querySelector(".letterContent");
+  var baoboiImage = document.querySelector(".baoboiImage");
   letterContentSplited = letterContent.split("");
 
   letterContentSplited.forEach((val, index) => {
@@ -14,6 +14,11 @@ function effectWrite() {
       boxLetter.innerHTML += val;
     }, durationWrite * index);
   });
+
+  // Hiển thị hình ảnh sau khi chữ chạy xong
+  setTimeout(() => {
+    baoboiImage.classList.remove("hidden");
+  }, durationWrite * letterContentSplited.length);
 }
 
 window.addEventListener("load", () => {
@@ -38,6 +43,7 @@ cardValentine.addEventListener("click", () => {
   } else {
     setTimeout(() => {
       document.querySelector(".letterContent").innerHTML = "";
+      document.querySelector(".baoboiImage").classList.add("hidden");
     }, 1000);
   }
 });
